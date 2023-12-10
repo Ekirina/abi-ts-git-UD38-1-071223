@@ -10,8 +10,8 @@ import { Cliente } from './interface/Cliente';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [CommonModule, RouterOutlet, FormularioComponent, ListadoComponent]
-})
+    imports: [CommonModule, RouterOutlet, ListadoComponent, FormularioComponent],})
+    
 export class AppComponent {
   title = 'TA38Formulario';
   variableComponente = "app.component";
